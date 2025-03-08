@@ -13,15 +13,45 @@
   
   /* Header with drop shadow */
   header {
-    font-family: 'Arial', sans-serif;
-    user-select: none;
     padding: 1rem;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); /* Dense drop shadow */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .title {
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: "Domine", system-ui, sans-serif;
+    user-select: none;
+    width: fit-content;
+    padding: 0.5rem 0.5rem;
+  }
+
+  header .nav {
+    display: flex;
+    gap: 1.5rem;
+    padding-right: 1rem;
+  }
+
+  /* make sure hover adds orange underline */
+  header .nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+  }
+
+  header .nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #bf5900;
   }
   
   /* Main content */
   main {
-    font-family: 'Cambria', serif;
+    font-family: serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,8 +59,9 @@
   }
   
   main h2 {
-    color: #b04f00; /* Burnt orange accent */
-    font-weight: normal;
+    font-family: system-ui, sans-serif;
     font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #bf5900;
   }
   
