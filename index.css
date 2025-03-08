@@ -1,0 +1,36 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body settings */
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Header with drop shadow */
+  header {
+    font-family: 'Arial', sans-serif;
+    user-select: none;
+    padding: 1rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); /* Dense drop shadow */
+  }
+  
+  /* Main content */
+  main {
+    font-family: 'Cambria', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  
+  main h2 {
+    color: #b04f00; /* Burnt orange accent */
+    font-weight: normal;
+    font-size: 1.5rem;
+  }
+  
